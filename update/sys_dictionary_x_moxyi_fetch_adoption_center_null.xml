@@ -53,15 +53,15 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>shaun.ericson@moxyi.com</sys_created_by>
         <sys_created_on>2020-04-15 01:06:12</sys_created_on>
-        <sys_id>a4cdb590dba5d81032b1570bd39619f9</sys_id>
+        <sys_id>207986102fa510100208877cf699b6d6</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>x_moxyi_fetch_adoption_center</sys_name>
         <sys_package display_value="Fetch" source="x_moxyi_fetch">48fad833db8c581032b1570bd396199f</sys_package>
         <sys_policy/>
         <sys_scope display_value="Fetch">48fad833db8c581032b1570bd396199f</sys_scope>
         <sys_update_name>sys_dictionary_x_moxyi_fetch_adoption_center_NULL</sys_update_name>
-        <sys_updated_by>shaun.ericson@moxyi.com</sys_updated_by>
-        <sys_updated_on>2020-06-18 01:09:33</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-18 01:22:49</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
