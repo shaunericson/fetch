@@ -10,6 +10,9 @@
         <script><![CDATA[var testShaunMaster = Class.create();
 testShaunMaster.prototype = {
     initialize: function() {
+		var shaunMaster12;
+		var shaunBranch;
+		var shaunBranch2;
     },
 
     type: 'testShaunMaster'
@@ -18,13 +21,13 @@ testShaunMaster.prototype = {
         <sys_created_by>shaun.ericson@moxyi.com</sys_created_by>
         <sys_created_on>2020-06-18 00:23:58</sys_created_on>
         <sys_id>9cfbf9dcdb65d81032b1570bd39619ec</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>testShaunMaster</sys_name>
         <sys_package display_value="Fetch" source="x_moxyi_fetch">48fad833db8c581032b1570bd396199f</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Fetch">48fad833db8c581032b1570bd396199f</sys_scope>
         <sys_update_name>sys_script_include_9cfbf9dcdb65d81032b1570bd39619ec</sys_update_name>
         <sys_updated_by>shaun.ericson@moxyi.com</sys_updated_by>
-        <sys_updated_on>2020-06-18 00:23:58</sys_updated_on>
+        <sys_updated_on>2020-06-18 01:03:20</sys_updated_on>
     </sys_script_include>
 </record_update>
