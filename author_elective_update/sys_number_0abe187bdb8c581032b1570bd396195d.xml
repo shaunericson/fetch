@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="DELETE">
+        <category display_value="" name="x_moxyi_fetch_adoption_center">x_moxyi_fetch_adoption_center</category>
+        <maximum_digits>7</maximum_digits>
+        <number>1000</number>
+        <prefix>AC</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>shaun.ericson@moxyi.com</sys_created_by>
+        <sys_created_on>2020-04-15 01:01:02</sys_created_on>
+        <sys_id>0abe187bdb8c581032b1570bd396195d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>AC</sys_name>
+        <sys_package display_value="Fetch" source="x_moxyi_fetch">48fad833db8c581032b1570bd396199f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Fetch">48fad833db8c581032b1570bd396199f</sys_scope>
+        <sys_update_name>sys_number_0abe187bdb8c581032b1570bd396195d</sys_update_name>
+        <sys_updated_by>shaun.ericson@moxyi.com</sys_updated_by>
+        <sys_updated_on>2020-04-15 01:01:02</sys_updated_on>
+    </sys_number>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Fetch">48fad833db8c581032b1570bd396199f</application>
+        <file_path/>
+        <instance_id>66d73f8cdb764c508aea21c4059619e1</instance_id>
+        <instance_name>ven03503</instance_name>
+        <name>sys_number_0abe187bdb8c581032b1570bd396195d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number"><sys_number action="INSERT_OR_UPDATE"><category display_value="" name="x_moxyi_fetch_adoption_center">x_moxyi_fetch_adoption_center</category><maximum_digits>7</maximum_digits><number>1000</number><prefix>AC</prefix><sys_class_name>sys_number</sys_class_name><sys_created_by>shaun.ericson@moxyi.com</sys_created_by><sys_created_on>2020-04-15 01:01:02</sys_created_on><sys_id>0abe187bdb8c581032b1570bd396195d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>AC</sys_name><sys_package display_value="Fetch" source="x_moxyi_fetch">48fad833db8c581032b1570bd396199f</sys_package><sys_policy/><sys_scope display_value="Fetch">48fad833db8c581032b1570bd396199f</sys_scope><sys_update_name>sys_number_0abe187bdb8c581032b1570bd396195d</sys_update_name><sys_updated_by>shaun.ericson@moxyi.com</sys_updated_by><sys_updated_on>2020-04-15 01:01:02</sys_updated_on></sys_number></record_update>]]></payload>
+        <payload_hash>-1001698947</payload_hash>
+        <record_name>AC</record_name>
+        <reverted_from/>
+        <source>88fad477db8c581032b1570bd396195f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>shaun.ericson@moxyi.com</sys_created_by>
+        <sys_created_on>2020-04-15 01:01:02</sys_created_on>
+        <sys_id>cabe187bdb8c581032b1570bd3961988</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1717b5a88720000001</sys_recorded_at>
+        <sys_updated_by>shaun.ericson@moxyi.com</sys_updated_by>
+        <sys_updated_on>2020-04-15 01:01:02</sys_updated_on>
+        <type>Number</type>
+        <update_guid>06be187b3f8c5810061f6823664fbf88</update_guid>
+        <update_guid_history>06be187b3f8c5810061f6823664fbf88:-1001698947</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>shaun.ericson@moxyi.com</sys_created_by>
+        <sys_created_on>2020-04-15 01:05:28</sys_created_on>
+        <sys_db_object display_value="" name="sys_number">sys_number</sys_db_object>
+        <sys_id>020da952fb2641318a585c113f96b4b9</sys_id>
+        <sys_metadata>0abe187bdb8c581032b1570bd396195d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>AC</sys_name>
+        <sys_package display_value="Fetch" source="x_moxyi_fetch">48fad833db8c581032b1570bd396199f</sys_package>
+        <sys_parent display_value="">b66e9c3bdb8c581032b1570bd396194a</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Fetch">48fad833db8c581032b1570bd396199f</sys_scope>
+        <sys_scope_delete display_value="">10dbceeffd4e4994a9c09656584fe110</sys_scope_delete>
+        <sys_update_name>sys_number_0abe187bdb8c581032b1570bd396195d</sys_update_name>
+        <sys_update_version display_value="sys_number_0abe187bdb8c581032b1570bd396195d">cabe187bdb8c581032b1570bd3961988</sys_update_version>
+        <sys_updated_by>shaun.ericson@moxyi.com</sys_updated_by>
+        <sys_updated_on>2020-04-15 01:05:28</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

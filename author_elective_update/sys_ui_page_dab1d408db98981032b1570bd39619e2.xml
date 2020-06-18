@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_page">
+    <sys_ui_page action="DELETE">
+        <category>general</category>
+        <client_script/>
+        <description/>
+        <direct>false</direct>
+        <endpoint>x_moxyi_fetch_Create Dog.do</endpoint>
+        <html><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+
+<h1>Add a new dog</h1>
+
+<form class="form-horizontal">
+    <div class="form-group">
+        <label for="dogName" class="col-sm-2 control-label">Name of dog:</label>
+        <div class="col-sm-4">
+            <input type="text" class="form-control" id="dogName" />
+        </div>
+        <label for="dogAge" class="col-sm-2 control-label">Age of dog:</label>
+        <div class="col-sm-4">
+            <input type="text" class="form-control" id="dogAge" />
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="col-sm-offset-2 col-sm-10">
+            <div class="checkbox">
+                <label>
+                    <input id="dogShots" type="checkbox" />
+                    Shots
+                </label>
+            </div>
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="col-sm-offset-2 col-sm-10">
+            <div class="checkbox">
+                <label>
+                    <input id="dogNeutered" type="checkbox" />
+                    Neutered
+                </label>
+            </div>
+        </div>
+    </div>
+</form>
+
+<button id="addDog" class="btn btn-default">Add Dog</button>
+
+<div id="msg"></div>
+
+</j:jelly>]]></html>
+        <name>Create Dog</name>
+        <processing_script/>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>shaun.ericson@moxyi.com</sys_created_by>
+        <sys_created_on>2020-04-15 18:50:57</sys_created_on>
+        <sys_id>dab1d408db98981032b1570bd39619e2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Create Dog</sys_name>
+        <sys_package display_value="Fetch" source="x_moxyi_fetch">48fad833db8c581032b1570bd396199f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Fetch">48fad833db8c581032b1570bd396199f</sys_scope>
+        <sys_update_name>sys_ui_page_dab1d408db98981032b1570bd39619e2</sys_update_name>
+        <sys_updated_by>shaun.ericson@moxyi.com</sys_updated_by>
+        <sys_updated_on>2020-04-15 18:50:57</sys_updated_on>
+    </sys_ui_page>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Fetch">48fad833db8c581032b1570bd396199f</application>
+        <file_path/>
+        <instance_id>66d73f8cdb764c508aea21c4059619e1</instance_id>
+        <instance_name>ven03503</instance_name>
+        <name>sys_ui_page_dab1d408db98981032b1570bd39619e2</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ui_page"&gt;&lt;sys_ui_page action="INSERT_OR_UPDATE"&gt;&lt;category&gt;general&lt;/category&gt;&lt;client_script/&gt;&lt;description/&gt;&lt;direct&gt;false&lt;/direct&gt;&lt;endpoint&gt;x_moxyi_fetch_Create Dog.do&lt;/endpoint&gt;&lt;html&gt;&lt;![CDATA[&lt;?xml version="1.0" encoding="utf-8" ?&gt;
+&lt;j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null"&gt;
+
+&lt;h1&gt;Add a new dog&lt;/h1&gt;
+
+&lt;form class="form-horizontal"&gt;
+    &lt;div class="form-group"&gt;
+        &lt;label for="dogName" class="col-sm-2 control-label"&gt;Name of dog:&lt;/label&gt;
+        &lt;div class="col-sm-4"&gt;
+            &lt;input type="text" class="form-control" id="dogName" /&gt;
+        &lt;/div&gt;
+        &lt;label for="dogAge" class="col-sm-2 control-label"&gt;Age of dog:&lt;/label&gt;
+        &lt;div class="col-sm-4"&gt;
+            &lt;input type="text" class="form-control" id="dogAge" /&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class="form-group"&gt;
+        &lt;div class="col-sm-offset-2 col-sm-10"&gt;
+            &lt;div class="checkbox"&gt;
+                &lt;label&gt;
+                    &lt;input id="dogShots" type="checkbox" /&gt;
+                    Shots
+                &lt;/label&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class="form-group"&gt;
+        &lt;div class="col-sm-offset-2 col-sm-10"&gt;
+            &lt;div class="checkbox"&gt;
+                &lt;label&gt;
+                    &lt;input id="dogNeutered" type="checkbox" /&gt;
+                    Neutered
+                &lt;/label&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/form&gt;
+
+&lt;button id="addDog" class="btn btn-default"&gt;Add Dog&lt;/button&gt;
+
+&lt;div id="msg"&gt;&lt;/div&gt;
+
+&lt;/j:jelly&gt;]]&gt;&lt;/html&gt;&lt;name&gt;Create Dog&lt;/name&gt;&lt;processing_script/&gt;&lt;sys_class_name&gt;sys_ui_page&lt;/sys_class_name&gt;&lt;sys_created_by&gt;shaun.ericson@moxyi.com&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-04-15 18:50:57&lt;/sys_created_on&gt;&lt;sys_id&gt;dab1d408db98981032b1570bd39619e2&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Create Dog&lt;/sys_name&gt;&lt;sys_package display_value="Fetch" source="x_moxyi_fetch"&gt;48fad833db8c581032b1570bd396199f&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Fetch"&gt;48fad833db8c581032b1570bd396199f&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_page_dab1d408db98981032b1570bd39619e2&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;shaun.ericson@moxyi.com&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-04-15 18:50:57&lt;/sys_updated_on&gt;&lt;/sys_ui_page&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-2104018267</payload_hash>
+        <record_name>Create Dog</record_name>
+        <reverted_from/>
+        <source>88fad477db8c581032b1570bd396195f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>shaun.ericson@moxyi.com</sys_created_by>
+        <sys_created_on>2020-04-15 18:50:57</sys_created_on>
+        <sys_id>ae931408db98981032b1570bd396198e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1717f2e101a0000001</sys_recorded_at>
+        <sys_updated_by>shaun.ericson@moxyi.com</sys_updated_by>
+        <sys_updated_on>2020-04-15 18:50:57</sys_updated_on>
+        <type>UI Page</type>
+        <update_guid>e6931408679898107aba605fb4e6978e</update_guid>
+        <update_guid_history>e6931408679898107aba605fb4e6978e:-2104018267</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>shaun.ericson@moxyi.com</sys_created_by>
+        <sys_created_on>2020-04-15 18:52:15</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_page">sys_ui_page</sys_db_object>
+        <sys_id>702c26134dc74e7ab58e4b607fec50b9</sys_id>
+        <sys_metadata>dab1d408db98981032b1570bd39619e2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Create Dog</sys_name>
+        <sys_package display_value="Fetch" source="x_moxyi_fetch">48fad833db8c581032b1570bd396199f</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Fetch">48fad833db8c581032b1570bd396199f</sys_scope>
+        <sys_scope_delete display_value="">10dbceeffd4e4994a9c09656584fe110</sys_scope_delete>
+        <sys_update_name>sys_ui_page_dab1d408db98981032b1570bd39619e2</sys_update_name>
+        <sys_update_version display_value="sys_ui_page_dab1d408db98981032b1570bd39619e2">ae931408db98981032b1570bd396198e</sys_update_version>
+        <sys_updated_by>shaun.ericson@moxyi.com</sys_updated_by>
+        <sys_updated_on>2020-04-15 18:52:15</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="breed" table="x_moxyi_fetch_dogs" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>breed</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Labrador</label>
+            <language>en</language>
+            <name>x_moxyi_fetch_dogs</name>
+            <sequence>0</sequence>
+            <sys_created_by>shaun.ericson@moxyi.com</sys_created_by>
+            <sys_created_on>2020-04-15 00:55:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c65d103bdb8c581032b1570bd39619ba</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>shaun.ericson@moxyi.com</sys_updated_by>
+            <sys_updated_on>2020-04-15 00:55:34</sys_updated_on>
+            <value>labrador</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>breed</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>German Shepard</label>
+            <language>en</language>
+            <name>x_moxyi_fetch_dogs</name>
+            <sequence>1</sequence>
+            <sys_created_by>shaun.ericson@moxyi.com</sys_created_by>
+            <sys_created_on>2020-04-15 00:56:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>409ddcf7db8c581032b1570bd39619e2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>shaun.ericson@moxyi.com</sys_updated_by>
+            <sys_updated_on>2020-04-15 00:56:00</sys_updated_on>
+            <value>german_shepard</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>breed</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Mix</label>
+            <language>en</language>
+            <name>x_moxyi_fetch_dogs</name>
+            <sequence>2</sequence>
+            <sys_created_by>shaun.ericson@moxyi.com</sys_created_by>
+            <sys_created_on>2020-04-15 00:56:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1f9d9cf7db8c581032b1570bd3961992</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>shaun.ericson@moxyi.com</sys_updated_by>
+            <sys_updated_on>2020-04-15 00:56:12</sys_updated_on>
+            <value>mix</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>breed</element>
+            <name>x_moxyi_fetch_dogs</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>shaun.ericson@moxyi.com</sys_created_by>
+            <sys_created_on>2020-04-15 00:55:34</sys_created_on>
+            <sys_id>4a7d58f7db8c581032b1570bd3961908</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>breed</sys_name>
+            <sys_package display_value="Fetch" source="x_moxyi_fetch">48fad833db8c581032b1570bd396199f</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Fetch">48fad833db8c581032b1570bd396199f</sys_scope>
+            <sys_update_name>sys_choice_x_moxyi_fetch_dogs_breed</sys_update_name>
+            <sys_updated_by>shaun.ericson@moxyi.com</sys_updated_by>
+            <sys_updated_on>2020-04-15 00:55:34</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>
