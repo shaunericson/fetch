@@ -42,7 +42,7 @@
         <update_guid_history>4abe187bfc8c5810f9d7a4f75072b531:867294482</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="x_moxyi_fetch_adoption_center.x_moxyi_fetch.adoption_center_user">aabf58bbdb8c581032b1570bd396195f</sys_audit_delete>
+        <sys_audit_delete display_value="">aabf58bbdb8c581032b1570bd396195f</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>shaun.ericson@moxyi.com</sys_created_by>
         <sys_created_on>2020-04-15 01:05:27</sys_created_on>
